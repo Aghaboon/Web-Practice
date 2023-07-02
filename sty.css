@@ -1,0 +1,62 @@
+
+/* Base styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.container {
+    border: 5px solid black;
+    border-radius: 15%;
+    padding: 5%;
+}
+  
+.rate {
+    display: inline-block;
+    font-size: 24px;
+}
+  
+.fa-star {
+    color: lightgray;
+    cursor: pointer;
+}
+  
+.fa-star.checked {
+    color: gold;
+}
+  
+.color {
+    margin-top: 5%;
+}
+  
+.color button {
+    padding: 6px 12px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    border-style: outset;
+    cursor: pointer;
+}
+#blue{
+    background-color: blue;
+}
+
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+  
+.value {
+    margin-top: 20px;
+}
+  
+.value h1 {
+    font-size: 24px;
+    color: #333;
+}
