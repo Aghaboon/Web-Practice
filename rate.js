@@ -23,10 +23,22 @@ function updateStars() {
     }
 
     document.getElementById("rating").textContent = rating;
+    resetStarColor()
 }
 
 function changeColor(color) {
     starColor = color;
+    resetStarColor();
+    // updateStarColor();
+}
+
+function resetStarColor() {
+    const allstars = document.getElementsByClassName("fa fa-star");
+
+    for (let i = 0; i < allstars.length; i++) {
+        allstars[i].style.color = "lightgray";
+    }
+
     updateStarColor();
 }
 
