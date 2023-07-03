@@ -1,5 +1,5 @@
 let rating = 0;
-let starColor = "blue";
+let starColor = "gold";
 
 function setRating(selectedRating) {
     if (rating === selectedRating) {
